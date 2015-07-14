@@ -1,0 +1,78 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入第一个数字"
+        android:layout_marginTop="40dp"
+        android:textSize="20dp"
+        android:id="@+id/num1"
+       android:inputType="number"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入第二个数字"
+        android:layout_marginTop="100dp"
+        android:textSize="20dp"
+        android:id="@+id/num2"
+        android:inputType="number"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="结果:"
+        android:id="@+id/a"
+        android:textSize="40dp"
+        android:layout_centerInParent="true"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textview"
+        android:layout_alignTop="@+id/a"
+        android:textSize="40dp"
+        android:layout_marginLeft="230dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="加"
+        android:layout_marginTop="300dp"
+        android:inputType="number"
+        android:id="@+id/btn1"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="减"
+       android:layout_alignTop="@+id/btn1"
+        android:layout_alignLeft="@+id/btn4"
+        android:id="@+id/btn2"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="乘"
+        android:layout_marginTop="350dp"
+        android:id="@+id/btn3"
+        android:layout_alignParentBottom="true"
+         />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="除"
+        android:layout_marginTop="350dp"
+        android:layout_marginLeft="250dp"
+        android:id="@+id/btn4"
+        android:layout_gravity="right|bottom"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>
+
